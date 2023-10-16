@@ -1,0 +1,45 @@
+<!--  work done by Geyamrutha Poluru -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' media='screen' href='styling.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <title>Video Conferencing Website</title>
+</head>
+<body>
+    <nav>
+        <label for="title" class="title">Video Conference</label>
+    </nav>
+    <div class="container">
+        <div id="joining-wrapper">
+            <input id="user" type="text" placeholder="Enter your name..." />
+            <button id="joining-btn">Join Stream</button>
+        </div>
+        <div id="user-streams" ></div>
+        
+        <!-- Wrapper for join button -->
+        <div id="foot">
+            <div class="icon-wrapper">
+                <img class="control-icon" id="camera-btn" src="./bharath intern/video.svg" />
+                <p>Camera</p>
+            </div>
+
+            <div class="icon-wrapper">
+                <img class="control-icon" id="mic-btn" src="./bharath intern/microphone.svg" />
+                <p>Mic</p>
+            </div>
+
+            <div class="icon-wrapper">
+                <img class="control-icon" id="leave-btn" src="./bharath intern/leave.svg" />
+                <p>Leave</p>
+            </div>
+                        
+        </div>
+    </div>
+    <script src='source.js'></script>
+</body>
+</html>
